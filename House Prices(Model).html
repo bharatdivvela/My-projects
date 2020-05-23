@@ -2,7 +2,7 @@
 <html>
 <head><meta charset="utf-8" />
 
-<title>House Prices(EDA)-Copy1</title>
+<title>House Prices(Model)</title>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
@@ -15112,13 +15112,13 @@ memory usage: 1.8+ MB
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>{&#39;whiskers&#39;: [&lt;matplotlib.lines.Line2D at 0x1c1c2c4bd0&gt;,
-  &lt;matplotlib.lines.Line2D at 0x1c1bdc0ed0&gt;],
- &#39;caps&#39;: [&lt;matplotlib.lines.Line2D at 0x1c1c2c7790&gt;,
-  &lt;matplotlib.lines.Line2D at 0x1c1c2c7090&gt;],
- &#39;boxes&#39;: [&lt;matplotlib.lines.Line2D at 0x1c1c2c4350&gt;],
- &#39;medians&#39;: [&lt;matplotlib.lines.Line2D at 0x1c1c2c79d0&gt;],
- &#39;fliers&#39;: [&lt;matplotlib.lines.Line2D at 0x1c1c2b5750&gt;],
+<pre>{&#39;whiskers&#39;: [&lt;matplotlib.lines.Line2D at 0x1c2454a390&gt;,
+  &lt;matplotlib.lines.Line2D at 0x1c2331c1d0&gt;],
+ &#39;caps&#39;: [&lt;matplotlib.lines.Line2D at 0x1c244638d0&gt;,
+  &lt;matplotlib.lines.Line2D at 0x1c24463d50&gt;],
+ &#39;boxes&#39;: [&lt;matplotlib.lines.Line2D at 0x1c24482150&gt;],
+ &#39;medians&#39;: [&lt;matplotlib.lines.Line2D at 0x1c24482f10&gt;],
+ &#39;fliers&#39;: [&lt;matplotlib.lines.Line2D at 0x1c2446d7d0&gt;],
  &#39;means&#39;: []}</pre>
 </div>
 
@@ -15318,7 +15318,7 @@ memory usage: 1.8+ MB
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>&lt;matplotlib.axes._subplots.AxesSubplot at 0x10534f890&gt;</pre>
+<pre>&lt;matplotlib.axes._subplots.AxesSubplot at 0x1c243ce250&gt;</pre>
 </div>
 
 </div>
@@ -15468,7 +15468,7 @@ Residual      1458.0  6.584942e+12  4.516421e+09         NaN            NaN
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>&lt;matplotlib.axes._subplots.AxesSubplot at 0x1c1c924690&gt;</pre>
+<pre>&lt;matplotlib.axes._subplots.AxesSubplot at 0x1c241f5d50&gt;</pre>
 </div>
 
 </div>
@@ -15632,7 +15632,7 @@ Residual      1458.0  6.584942e+12  4.516421e+09         NaN            NaN
 
 <div class="output_subarea output_stream output_stdout output_text">
 <pre>Observed diff: 107733.90797365058
-[-4028.31659048  5283.16348609]
+[-9298.45954486    96.14978063]
 </pre>
 </div>
 </div>
@@ -15688,7 +15688,7 @@ Residual      1458.0  6.584942e+12  4.516421e+09         NaN            NaN
 
 <div class="output_subarea output_stream output_stdout output_text">
 <pre>Observed diff: 80922.63620589937
-[66465.05192033 69613.21274047]
+[65222.32491758 68824.43574793]
 </pre>
 </div>
 </div>
@@ -15768,7 +15768,7 @@ Residual      1458.0  6.584942e+12  4.516421e+09         NaN            NaN
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>&lt;matplotlib.axes._subplots.AxesSubplot at 0x1c1b195dd0&gt;</pre>
+<pre>&lt;matplotlib.axes._subplots.AxesSubplot at 0x1c2501a950&gt;</pre>
 </div>
 
 </div>
@@ -15825,7 +15825,7 @@ Residual      1458.0  6.584942e+12  4.516421e+09         NaN            NaN
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>&lt;matplotlib.axes._subplots.AxesSubplot at 0x1c1bb5add0&gt;</pre>
+<pre>&lt;matplotlib.axes._subplots.AxesSubplot at 0x1c23a25490&gt;</pre>
 </div>
 
 </div>
@@ -15923,7 +15923,7 @@ Residual  1458.0  6.685904e+12  4.585668e+09         NaN            NaN
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>&lt;matplotlib.axes._subplots.AxesSubplot at 0x1c1b98d8d0&gt;</pre>
+<pre>&lt;matplotlib.axes._subplots.AxesSubplot at 0x1c25529ed0&gt;</pre>
 </div>
 
 </div>
@@ -16062,7 +16062,7 @@ Residual    1458.0  7.200379e+12  4.938532e+09         NaN           NaN
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>&lt;matplotlib.axes._subplots.AxesSubplot at 0x1c1ba5b710&gt;</pre>
+<pre>&lt;matplotlib.axes._subplots.AxesSubplot at 0x1c23e9ad10&gt;</pre>
 </div>
 
 </div>
@@ -18046,7 +18046,7 @@ dtype: float64</pre>
     <span class="n">cv_score</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">sqrt</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">abs</span><span class="p">(</span><span class="n">cv_score</span><span class="p">))</span>
     
     <span class="c1">#Print model report:</span>
-    <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;RMSE:&#39;</span> <span class="o">%</span> <span class="n">np</span><span class="o">.</span><span class="n">sqrt</span><span class="p">(</span><span class="n">metrics</span><span class="o">.</span><span class="n">mean_squared_error</span><span class="p">((</span><span class="n">np</span><span class="o">.</span><span class="n">exp</span><span class="p">(</span><span class="n">train</span><span class="p">[</span><span class="n">target</span><span class="p">]))</span><span class="o">.</span><span class="n">values</span><span class="p">,</span> <span class="n">np</span><span class="o">.</span><span class="n">exp</span><span class="p">(</span><span class="n">train_predictions</span><span class="p">))))</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;RMSE:&#39;</span><span class="p">,</span> <span class="n">np</span><span class="o">.</span><span class="n">sqrt</span><span class="p">(</span><span class="n">metrics</span><span class="o">.</span><span class="n">mean_squared_error</span><span class="p">((</span><span class="n">np</span><span class="o">.</span><span class="n">exp</span><span class="p">(</span><span class="n">train</span><span class="p">[</span><span class="n">target</span><span class="p">]))</span><span class="o">.</span><span class="n">values</span><span class="p">,</span> <span class="n">train_predictions</span><span class="p">)))</span>
     <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;CV Score : Mean:&#39;</span><span class="p">,</span> <span class="n">np</span><span class="o">.</span><span class="n">mean</span><span class="p">(</span><span class="n">cv_score</span><span class="p">)</span> <span class="p">,</span> <span class="s1">&#39;| Min:&#39;</span><span class="p">,</span> <span class="n">np</span><span class="o">.</span><span class="n">min</span><span class="p">(</span><span class="n">cv_score</span><span class="p">),</span> <span class="s1">&#39;| Max:&#39;</span><span class="p">,</span><span class="n">np</span><span class="o">.</span><span class="n">max</span><span class="p">(</span><span class="n">cv_score</span><span class="p">))</span>
     
     <span class="c1">#Predict on testing data:</span>
@@ -18093,7 +18093,7 @@ dtype: float64</pre>
 
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>RMSE:
+<pre>RMSE: 197573.3347119667
 CV Score : Mean: 0.1287944098751062 | Min: 0.10729685599065027 | Max: 0.16230634942528693
 </pre>
 </div>
@@ -18201,7 +18201,7 @@ See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stabl
 
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>RMSE:
+<pre>RMSE: 197573.33743326107
 CV Score : Mean: 0.12021118888763878 | Min: 0.09468851301904783 | Max: 0.15383750867848503
 </pre>
 </div>
@@ -18306,7 +18306,7 @@ See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stabl
 
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>RMSE:
+<pre>RMSE: 197573.42512470306
 CV Score : Mean: 0.3039710084715621 | Min: 0.273820692478082 | Max: 0.3413118367108787
 </pre>
 </div>
